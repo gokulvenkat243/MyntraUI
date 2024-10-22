@@ -672,6 +672,7 @@ class MainViewController: UIViewController {
         let label = UILabel()
         let attributedString = NSMutableAttributedString(string: "-Regular style")
         attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 16, weight: .bold), range: NSRange(location: 0, length: 1))
+        attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 16, weight: .bold), range: NSRange(location: 0, length: 1))
         attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: 16, weight: .light), range: NSRange(location: 1, length: 13))
         label.attributedText = attributedString
         label.numberOfLines = 0
