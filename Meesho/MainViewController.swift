@@ -820,7 +820,7 @@ class MainViewController: UIViewController {
                           
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
+        print("Hello Myntra")
         view.addSubview(scrollView)
         NSLayoutConstraint.activate([
             scrollView.topAnchor.constraint(equalTo: view.topAnchor),
